@@ -27,7 +27,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist'), // This replaces `contentBase`
     },
-    port: 3000,
+    port: 3009,
     hot: true,  // Enable hot reloading
     open: true,  // Open browser on start
   },
