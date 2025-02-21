@@ -4,7 +4,7 @@
   "description": "A weather alerts app with a desktop UI built with Electron and React",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack serve --mode development --open",
+    "start": "webpack serve --mode development --open --port 3009",
     "build": "webpack --mode production",
     "electron": "electron .",
     "dev": "concurrently \"npm run start\" \"npm run electron\""
